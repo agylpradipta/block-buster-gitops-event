@@ -8,4 +8,6 @@ spec:
   interval: 1m0s
   ref:
     branch: dev-demo
-  url: https://github.com/agylpradipta/bb-app-source-event
+  secretRef:
+    name: dev-demo-git-bb-app-auth
+  url: ssh://git@github.com/agylpradipta/bb-app-source-event.git

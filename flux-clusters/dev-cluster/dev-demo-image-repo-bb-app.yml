@@ -5,5 +5,5 @@ metadata:
   name: dev-demo-image-repo-bb-app
   namespace: flux-system
 spec:
-  image: docker.io/agylwork/block-buster-dev
+  image: agylwork/block-buster-dev
   interval: 10s
